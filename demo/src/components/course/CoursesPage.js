@@ -37,7 +37,7 @@ class CoursesPage extends React.Component {
                 <input
                     type="text" 
                     onChange={this.onTitleChange}
-                    value={this.state.courses.title} />
+                    value={this.state.course.title} />
                 <input 
                     type="submit"
                     value="Save"
